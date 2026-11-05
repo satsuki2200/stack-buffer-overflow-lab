@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# 学習用にビルドしたコンパイル済みバイナリ（各 step で -o stepN したもの）
+step2/step2
+step4/step4
+step5/step5

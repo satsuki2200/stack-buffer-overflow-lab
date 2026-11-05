@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
+__attribute__((force_align_arg_pointer))
+
 void win(void) {
     printf("\n*** 乗っ取り成功！本来呼ばれないwin()が動いた ***\n");
 }
